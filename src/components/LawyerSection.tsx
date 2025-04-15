@@ -8,15 +8,11 @@ const LawyerSection = () => {
         <div className="flex flex-col lg:flex-row gap-12 items-center">
           <div className="lg:w-1/3 animate-fade-in opacity-0" style={{ animationDelay: '0.2s' }}>
             <div className="bg-lawLight p-1 rounded-lg overflow-hidden">
-              <div 
-                className="aspect-[3/4] rounded-lg bg-lawDark"
-                style={{
-                  backgroundImage: "url('https://images.unsplash.com/photo-1551138927-b5aaaa7a92fe?auto=format&fit=crop&q=80&w=800&h=1200')",
-                  backgroundSize: 'cover',
-                  backgroundPosition: 'center',
-                  opacity: 0.9
-                }}
-              ></div>
+              <img 
+                src="/lovable-uploads/d62f2c2c-c918-4eda-b6c0-c9b43231af99.png" 
+                alt="Josias de Souza Lima Neto" 
+                className="rounded-lg object-cover w-full aspect-[3/4]"
+              />
             </div>
           </div>
           
