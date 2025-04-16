@@ -1,10 +1,11 @@
+
 import React from 'react';
 
 const LawyerSection = () => {
   return (
     <section className="py-20 bg-white">
       <div className="container mx-auto px-6">
-        <div className="flex flex-col lg:flex-row gap-12 items-center">
+        <div className="flex flex-col lg:flex-row gap-12 items-start">
           <div className="lg:w-1/4 animate-fade-in opacity-0" style={{ animationDelay: '0.2s' }}>
             <div className="bg-lawLight p-1 rounded-lg overflow-hidden">
               <img 
@@ -16,15 +17,15 @@ const LawyerSection = () => {
           </div>
           
           <div className="lg:w-3/4 animate-fade-in opacity-0" style={{ animationDelay: '0.4s' }}>
-            <h2 className="section-title">Josias de Souza Lima Neto</h2>
-            <p className="mb-4 text-lg">Advogado militante no Paraná desde 2019 (OAB/PR 96.411)</p>
+            <h2 className="section-title">Apresentação do Advogado</h2>
             
-            <div className="space-y-3 text-gray-700">
-              <p>Especialista em Direito Penal e Processo Penal pela ABSConst.</p>
-              <p>Ex-assessor jurídico na Procuradoria do MP/PR (2016–2019).</p>
-              <p>Membro de comissões da OAB/PR: Advocacia Criminal, Iniciante, Inovação e Empreendedorismo.</p>
-              <p>Atua nas áreas cível, criminal, trabalhista e de família com atendimento individualizado e humanizado.</p>
-              <p className="mt-6">Cada caso é analisado de acordo com suas peculiaridades, sendo ofertado o melhor serviço a cada cliente.</p>
+            <div className="space-y-4 text-gray-700">
+              <p><strong>Josias de Souza Lima Neto</strong> é advogado militante no estado do Paraná desde 2019 sob a OAB/PR 96.411.</p>
+              <p>Especialista em direito penal e processo penal pela Academia Brasileira de Direito Constitucional - ABSConst.</p>
+              <p>Assessor jurídico na Procuradoria do Ministério Público do Paraná de 2016 a 2019.</p>
+              <p>Membro da Comissão da Advocacia Criminal do Paraná, da Comissão da Advocacia Iniciante e da Comissão de Inovação, Gestão e Empreendedorismo do Paraná.</p>
+              <p>Atuante na advocacia cível, criminal, trabalhista e de família, se destaca pelo atendimento individualizado e humanizado. Cada caso é analisado de forma única para oferecer o melhor serviço a cada cliente.</p>
+              <p><strong>Achley Wzorek</strong> é combativa e busca a liberdade e a garantia dos direitos daqueles que estão encarcerados, dando voz a quem está privado de liberdade ou respondendo a processos criminais.</p>
             </div>
           </div>
         </div>
