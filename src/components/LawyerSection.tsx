@@ -5,18 +5,18 @@ const LawyerSection = () => {
   return (
     <section className="py-20 bg-white">
       <div className="container mx-auto px-6">
-        <div className="flex flex-col items-start">
-          <div className="w-full lg:w-1/3 animate-fade-in opacity-0 mb-8" style={{ animationDelay: '0.2s' }}>
+        <div className="flex flex-col md:flex-row items-start gap-12">
+          <div className="w-full md:w-1/3 animate-fade-in opacity-0 mb-8 md:mb-0" style={{ animationDelay: '0.2s' }}>
             <div className="bg-lawLight p-1 rounded-lg overflow-hidden">
               <img 
-                src="/lovable-uploads/666a07e0-a351-4613-9599-007b54a86e3b.png" 
+                src="/lovable-uploads/66ef30dc-1a44-449c-8940-c9b205acc27a.png" 
                 alt="Josias de Souza Lima Neto" 
-                className="rounded-lg object-cover w-full aspect-[3/4] h-[300px]"
+                className="rounded-lg object-cover w-full h-auto"
               />
             </div>
           </div>
           
-          <div className="w-full animate-fade-in opacity-0" style={{ animationDelay: '0.4s' }}>
+          <div className="w-full md:w-2/3 animate-fade-in opacity-0" style={{ animationDelay: '0.4s' }}>
             <h2 className="section-title">Josias de Souza Lima Neto</h2>
             <p className="mb-4 text-lg">Advogado militante no Paraná desde 2019 (OAB/PR 96.411)</p>
             

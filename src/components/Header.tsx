@@ -6,7 +6,7 @@ const Header = () => {
     <header className="bg-lawDark text-white py-6">
       <div className="container mx-auto px-6 flex justify-center items-center">
         <img 
-          src="/lovable-uploads/5ca19d79-1426-46b5-852e-12b934af9fce.png" 
+          src="/lovable-uploads/622ea221-41fa-4ce8-b234-0e524dc5dec6.png" 
           alt="Josias Lima Advocacia" 
           className="h-32" 
         />

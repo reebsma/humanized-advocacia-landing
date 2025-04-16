@@ -4,10 +4,19 @@ import { MessageSquare, Mail, Instagram } from 'lucide-react';
 
 const CTASection = () => {
   return (
-    <section className="py-20 bg-lawLight">
+    <section className="py-20 bg-lawLight relative overflow-hidden">
+      <div 
+        className="absolute inset-0 bg-lawDark opacity-85 -z-10"
+        style={{
+          backgroundImage: "url('https://images.unsplash.com/photo-1605810230434-7631ac76ec81?auto=format&fit=crop&q=80&w=1200&h=800')",
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundBlendMode: 'overlay'
+        }}
+      ></div>
       <div className="container mx-auto px-6 text-center">
-        <h2 className="section-title text-center mx-auto mb-6">Fale conosco e tire suas dúvidas</h2>
-        <p className="text-xl max-w-2xl mx-auto mb-10 text-gray-700">
+        <h2 className="section-title text-center mx-auto mb-6 text-white">Fale conosco e tire suas dúvidas</h2>
+        <p className="text-xl max-w-2xl mx-auto mb-10 text-lawLight">
           Com discrição e profissionalismo, estamos prontos para atender suas necessidades jurídicas.
         </p>
         
@@ -19,7 +28,7 @@ const CTASection = () => {
             rel="noopener noreferrer"
           >
             <MessageSquare className="w-5 h-5" />
-            <span>Agende uma consulta no WhatsApp</span>
+            <span>Agende uma consulta</span>
           </a>
           
           <a 

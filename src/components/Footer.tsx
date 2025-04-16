@@ -19,7 +19,14 @@ const Footer = () => {
             <ul className="space-y-2">
               <li className="flex items-center gap-2">
                 <MessageSquare className="w-5 h-5 text-lawGold" />
-                <span>WhatsApp: (41) 98706-1061</span>
+                <a 
+                  href="https://wa.me/5541988461270?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20consulta."
+                  className="hover:text-lawGold transition-colors"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  WhatsApp: (41) 98706-1061
+                </a>
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="w-5 h-5 text-lawGold" />
