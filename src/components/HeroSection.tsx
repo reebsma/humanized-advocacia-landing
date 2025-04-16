@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { Button } from '@/components/ui/button';
 
 const HeroSection = () => {
   return (
@@ -21,6 +22,23 @@ const HeroSection = () => {
         <p className="text-xl md:text-2xl max-w-2xl mb-10 text-gray-700 italic animate-fade-in opacity-0" style={{ animationDelay: '0.4s' }}>
           Defesa eficiente para garantir seus direitos.
         </p>
+        <div className="flex flex-col sm:flex-row gap-4 animate-fade-in opacity-0" style={{ animationDelay: '0.6s' }}>
+          <a 
+            href="https://wa.me/5541988461270?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20consulta."
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Button className="cta-button">
+              Agende uma consulta
+            </Button>
+          </a>
+          <a 
+            href="#areas"
+            className="bg-lawDark text-white px-6 py-3 rounded-md inline-flex items-center hover:bg-opacity-90 transition-all duration-300 hover-scale"
+          >
+            Conheça nossas áreas
+          </a>
+        </div>
       </div>
     </section>
   );
