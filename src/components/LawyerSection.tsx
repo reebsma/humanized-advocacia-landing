@@ -21,7 +21,6 @@ const LawyerSection = () => {
             <p className="mb-4 text-lg">Advogado militante no Paraná desde 2019 (OAB/PR 96.411)</p>
             
             <div className="space-y-3 text-gray-700">
-              <p><strong>Josias de Souza Lima Neto</strong> é advogado militante no estado do Paraná desde 2019 sob a OAB/PR 96.411.</p>
               <p>Especialista em direito penal e processo penal pela Academia Brasileira de Direito Constitucional - ABSConst.</p>
               <p>Assessor jurídico na Procuradoria do Ministério Público do Paraná (2016–2019).</p>
               <p>Membro da Comissão da Advocacia Criminal do Paraná.</p>

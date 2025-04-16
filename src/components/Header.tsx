@@ -8,7 +8,7 @@ const Header = () => {
         <img 
           src="/lovable-uploads/622ea221-41fa-4ce8-b234-0e524dc5dec6.png" 
           alt="Josias Lima Advocacia" 
-          className="h-32" 
+          className="h-[192px]" 
         />
       </div>
     </header>

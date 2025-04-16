@@ -15,7 +15,7 @@ const CTASection = () => {
         }}
       ></div>
       <div className="container mx-auto px-6 text-center">
-        <h2 className="section-title text-center mx-auto mb-6 text-white">Fale conosco e tire suas dúvidas</h2>
+        <h2 className="section-title text-center mx-auto mb-6 text-[#282d3b]">Fale conosco e tire suas dúvidas</h2>
         <p className="text-xl max-w-2xl mx-auto mb-10 text-lawLight">
           Com discrição e profissionalismo, estamos prontos para atender suas necessidades jurídicas.
         </p>
