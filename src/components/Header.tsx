@@ -8,7 +8,7 @@ const Header = () => {
         <img 
           src="/lovable-uploads/8b460992-ac9c-48d3-97d2-4fd45eced02b.png" 
           alt="Josias Lima Advocacia" 
-          className="h-[512px] w-auto" // Reduzido para 40x o tamanho original, mantendo proporções
+          className="h-[256px] w-auto" // Reduzido para 20x o tamanho original, mantendo proporções
         />
       </div>
     </header>
