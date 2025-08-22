@@ -11,7 +11,7 @@ const DifferentialsSection = () => {
     },
     {
       title: "Plantão 24h para prisões e urgências",
-      description: "Resposta imediata em momentos críticos.",
+      description: "Atendimento imediato em casos de prisão em flagrante e situações urgentes.",
       icon: <Clock className="w-10 h-10" style={{ color: '#e3c072' }} />
     },
     {

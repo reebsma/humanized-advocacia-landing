@@ -10,7 +10,7 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-serif font-bold mb-4">Josias Lima Advocacia</h3>
             <p className="text-lawLight max-w-md mb-2">
-              Advocacia humanizada, com atendimento personalizado e resultados eficientes.
+              Josias Lima Advocacia – advocacia humanizada com atuação nacional, especializada em Direito Criminal, Civil, Família e Sucessões.
             </p>
             <p className="text-lawGold font-semibold">
               OAB/PR 96.411 - Atuação em todo o Brasil
