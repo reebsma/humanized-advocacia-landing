@@ -29,7 +29,7 @@ const ExpertiseSection = () => {
   return (
     <section id="areas" className="py-20 bg-lawLight">
       <div className="container mx-auto px-6">
-        <h2 className="section-title text-center mx-auto mb-16">Nossa ampla área de atuação</h2>
+        <h2 className="section-title text-center mx-auto mb-16">Áreas de atuação</h2>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {areas.map((area, index) => (

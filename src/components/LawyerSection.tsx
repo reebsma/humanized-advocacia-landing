@@ -18,7 +18,7 @@ const LawyerSection = () => {
           
           <div className="w-full md:w-2/3 animate-fade-in opacity-0" style={{ animationDelay: '0.4s' }}>
             <h2 className="section-title">Josias de Souza Lima Neto</h2>
-            <p className="mb-4 text-lg">Advogado militante no Paraná desde 2019 (OAB/PR 96.411)</p>
+            <p className="mb-4 text-lg">Advogado inscrito na OAB/PR 96.411, atendendo clientes em todo o Brasil desde 2019.</p>
             
             <div className="space-y-3 text-gray-700">
               <p>Especialista em direito penal e processo penal pela Academia Brasileira de Direito Constitucional - ABSConst.</p>

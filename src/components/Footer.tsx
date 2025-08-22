@@ -25,7 +25,7 @@ const Footer = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  WhatsApp: (41) 98706-1061
+                  WhatsApp: (41) 98846-1270
                 </a>
               </li>
               <li className="flex items-center gap-2">
