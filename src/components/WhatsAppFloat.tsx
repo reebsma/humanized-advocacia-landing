@@ -33,7 +33,7 @@ const WhatsAppFloat = () => {
         onClick={handleWhatsAppClick}
         onMouseEnter={() => setShowTooltip(true)}
         onMouseLeave={() => setShowTooltip(false)}
-        className="bg-green-500 hover:bg-green-600 text-white rounded-full p-4 shadow-lg transition-all duration-300 hover:scale-110 animate-pulse"
+        className="bg-green-600 hover:bg-green-700 text-white rounded-full p-4 shadow-lg transition-all duration-300 hover:scale-110 animate-pulse"
         aria-label="Entrar em contato via WhatsApp"
       >
         <MessageCircle size={24} />

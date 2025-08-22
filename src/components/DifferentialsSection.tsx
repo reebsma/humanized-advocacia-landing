@@ -7,22 +7,22 @@ const DifferentialsSection = () => {
     {
       title: "Defesa personalizada",
       description: "Estratégias jurídicas sob medida para cada caso.",
-      icon: <UserCircle className="w-10 h-10 text-lawGold" />
+      icon: <UserCircle className="w-10 h-10" style={{ color: '#e3c072' }} />
     },
     {
       title: "Plantão 24h para prisões e urgências",
       description: "Resposta imediata em momentos críticos.",
-      icon: <Clock className="w-10 h-10 text-lawGold" />
+      icon: <Clock className="w-10 h-10" style={{ color: '#e3c072' }} />
     },
     {
       title: "Sigilo absoluto",
       description: "Confiança e respeito com total discrição.",
-      icon: <LockKeyhole className="w-10 h-10 text-lawGold" />
+      icon: <LockKeyhole className="w-10 h-10" style={{ color: '#e3c072' }} />
     },
     {
       title: "Humanização",
       description: "Atendimento acolhedor com escuta ativa.",
-      icon: <Heart className="w-10 h-10 text-lawGold" />
+      icon: <Heart className="w-10 h-10" style={{ color: '#e3c072' }} />
     }
   ];
 

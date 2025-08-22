@@ -9,8 +9,11 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between gap-8">
           <div>
             <h3 className="text-xl font-serif font-bold mb-4">Josias Lima Advocacia</h3>
-            <p className="text-lawLight max-w-md">
+            <p className="text-lawLight max-w-md mb-2">
               Advocacia humanizada, com atendimento personalizado e resultados eficientes.
+            </p>
+            <p className="text-lawGold font-semibold">
+              OAB/PR 96.411 - Atuação em todo o Brasil
             </p>
           </div>
           
