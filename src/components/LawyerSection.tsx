@@ -21,7 +21,7 @@ const LawyerSection = () => {
             <p className="mb-4 text-lg">Advogado inscrito na OAB/PR 96.411, atendendo clientes em todo o Brasil desde 2019.</p>
             
             <div className="space-y-3 text-gray-700">
-              <p>Especialista em direito penal e processo penal pela Academia Brasileira de Direito Constitucional - ABSConst.</p>
+              <p>Especialista em direito penal e processo penal pela Academia Brasileira de Direito Constitucional - ABDConst.</p>
               <p>Assessor jurídico na Procuradoria do Ministério Público do Paraná (2016–2019).</p>
               <p>Membro da Comissão da Advocacia Criminal do Paraná.</p>
               <p>Membro consultor da Comissão da Advocacia Iniciante do Paraná.</p>
